@@ -81,7 +81,6 @@ a{
     cursor: pointer;
     transition: 0.3s;
 }
-
 .white:hover{
     position: relative;
     padding-left: 10px;
