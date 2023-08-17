@@ -40,3 +40,41 @@ nav {
   /* size of the text */
   font-size: 20px;
 }
+
+body footer {
+  /* center the text */
+  text-align: center;
+  /* make it bottom */
+  position: absolute;
+  bottom: 0;
+  /* cetner the text */
+  width: 99%;
+}
+
+body {
+
+  color: white;
+
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  text-shadow: 8px 8px 10px #0000008c;
+  background: linear-gradient(to right top, #343434, #303030, #2b2b2b, #272727, #232323);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
